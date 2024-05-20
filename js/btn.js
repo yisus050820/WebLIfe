@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.innerHTML = `
                 <div class="modal-content">
                     <h2>Confirmar Eliminación</h2>
-                    <p>¿Estás seguro de que deseas eliminar este usuario?</p>
+                    <p>¿Estás seguro de que deseas eliminarlo?</p>
                     <button class="confirm-btn">Aceptar</button>
                     <button class="cancel-btn">Cancelar</button>
                 </div>

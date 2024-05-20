@@ -22,7 +22,12 @@ if (isset($_GET['id'])) {
 
 <section class="form__section">
     <div class="container form__section-container">
-        <h2>Edit Post</h2>
+        <div class="fleecha">
+                <a href="index.php">
+                    <i class="fas fa-arrow-left" aria-hidden="true" title="Volver"></i>
+                </a>
+        </div>
+        <h2 class="h2-dsh">Edit Post</h2>
         <form action="<?= ROOT_URL ?>admin/edit-post-logic.php" enctype="multipart/form-data" method="POST">
             <input type="hidden" name="id" value="<?= $post['id'] ?>">
             <input type="hidden" name="previous_thumbnail_name" value="<?= $post['thumbnail'] ?>">

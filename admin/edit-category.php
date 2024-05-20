@@ -16,10 +16,16 @@ if (isset($_GET['id'])) {
 }
 ?>
 
+        
 
 <section class="form__section">
     <div class="container form__section-container">
-        <h2>Edit Category</h2>
+        <div class="fleecha">
+                <a href="index.php">
+                    <i class="fas fa-arrow-left" aria-hidden="true" title="Volver"></i>
+                </a>
+        </div>
+        <h2 class="h2-dsh">Edit Category</h2>
         <form action="<?= ROOT_URL ?>admin/edit-category-logic.php" method="POST">
             <input type="hidden" name="id" value="<?= $category['id'] ?>">
             <input type="text" name="title" value="<?= $category['title'] ?>" placeholder="Title">

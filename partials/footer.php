@@ -106,12 +106,12 @@
                 </figure>
             </div>
             <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
+                <h2>NOSOTROS</h2>
                 <p>Somos un grupo de estudiantes de la universidad de colima </p>
                 <p>Jesus, Flor, Daniel, Ricardo y Alan dieron marcha a este proyecto llamado WebLife, sean bienvenidos.</p>
             </div>
             <div class="box">
-                <h2>SIGUENOS</h2>
+                <h2>SÍGUENOS</h2>
                 <div class="red-social">
                     <a href="#" class="fa fa-envelope"></a>
                     <a href="https://www.instagram.com/weblife.0/" class="fa fa-instagram"></a>

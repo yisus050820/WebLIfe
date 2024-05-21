@@ -66,7 +66,7 @@ $users = mysqli_query($connection, $query);
             <ul>
                 <li>
                     <a href="add-post.php" class="a-dsh"><i class="uil uil-pen"></i>
-                        <h5 class="h5-dsh">Añadir post</h5>
+                        <h5 class="h5-dsh">Agregar post</h5>
                     </a>
                 </li>
                 <li>
@@ -77,7 +77,7 @@ $users = mysqli_query($connection, $query);
                 <?php if (isset($_SESSION['user_is_admin'])) : ?>
                     <li>
                         <a href="add-user.php" class="a-dsh"><i class="uil uil-user-plus"></i>
-                            <h5 class="h5-dsh">Añadir usuarios</h5>
+                            <h5 class="h5-dsh">Añadir usuario</h5>
                         </a>
                     </li>
                     <li>
@@ -116,8 +116,8 @@ $users = mysqli_query($connection, $query);
                             <tr>
                                 <td><?= "{$user['firstname']} {$user['lastname']}" ?></td>
                                 <td><?= $user['username'] ?></td>
-                                <td><a href="<?= ROOT_URL ?>admin/edit-user.php?id=<?= $user['id'] ?>" class="btn sm">Edit</a></td>
-                                <td><a href="<?= ROOT_URL ?>admin/delete-user.php?id=<?= $user['id'] ?>" class="btn sm danger">Delete</a></td>
+                                <td><a href="<?= ROOT_URL ?>admin/edit-user.php?id=<?= $user['id'] ?>" class="btn sm">Editar</a></td>
+                                <td><a href="<?= ROOT_URL ?>admin/delete-user.php?id=<?= $user['id'] ?>" class="btn sm danger">Eliminar</a></td>
                                 <td><?= $user['is_admin'] ? 'Si' : 'No' ?></td>
                             </tr>
                         <?php endwhile ?>

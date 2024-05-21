@@ -157,7 +157,7 @@ if (isset($_GET['id'])) {
     </section>
 <?php else : ?>
     <div class="alert__message error lg">
-        <p>No hay posts en esta categoria</p>
+        <p>No se encontraron posts en esta categoría</p>
     </div>
 <?php endif ?>
 <!--====================== final de post ====================-->

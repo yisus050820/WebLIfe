@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
         if (mysqli_errno($connection)) {
             $_SESSION['edit-user'] = "No se pudo actualizar la usuario.";
         } else {
-            $_SESSION['edit-user-success'] = "User $firstname $lastname actualizado correctamente";
+            $_SESSION['edit-user-success'] = "Usuario $firstname $lastname actualizado correctamente";
         }
     }
 }

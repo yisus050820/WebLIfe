@@ -33,10 +33,10 @@ if (isset($_SESSION['user-id'])) {
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="<?= ROOT_URL ?>" class="nav__logo"><span class="fas fa-leaf"></span> WebLife</a>
+            <a href="blog.php"<?= ROOT_URL ?> class="nav__logo"><span class="fas fa-leaf"></span> WebLife</a>
             <ul class="nav__items">
                 <li><a href="<?= ROOT_URL ?>blog.php" class="ng">Blog</a></li>
-                <li><a href="<?= ROOT_URL ?>about.php" class="ng">Sobre Nosotros</a></li>
+                <li><a href="<?= ROOT_URL ?>about.php" class="ng">Conócenos</a></li>
                 <li><a href="<?= ROOT_URL ?>contact.php" class="ng">Contacto</a></li>
                 <li><a href="<?= ROOT_URL ?>services.php" class="ng">Guía</a></li>
                 <?php if (isset($_SESSION['user-id'])) : ?>

@@ -53,7 +53,7 @@ unset($_SESSION['signup-data']);
 
         <div class="bottom-grid">
             <div class="logo">
-                <h1> <a href="index.html"><span class="fas fa-leaf"></span> WebLife</a></h1>
+                <h1> <a href="signup.php"><span class="fas fa-leaf"></span> WebLife</a></h1>
             </div>
             <div class="links">
                 <ul class="links-unordered-list">

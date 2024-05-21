@@ -66,7 +66,7 @@ $posts = mysqli_query($connection, $query);
                 </li>
                 <li>
                     <a href="index.php" class="active" class="a-dsh"><i class="uil uil-postcard"></i>
-                        <h5 class="h5-dsh">Administrar Post</h5>
+                        <h5 class="h5-dsh">Administrar post</h5>
                     </a>
                 </li>
                 <?php if (isset($_SESSION['user_is_admin'])) : ?>
@@ -100,9 +100,9 @@ $posts = mysqli_query($connection, $query);
                     <thead>
                         <tr>
                             <th>Titulo</th>
-                            <th>Categoria</th>
+                            <th>Categoría</th>
                             <th>Editar</th>
-                            <th>Borrar</th>
+                            <th>Eliminar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -118,13 +118,13 @@ $posts = mysqli_query($connection, $query);
                                 <td><?= $post['title'] ?></td>
                                 <td><?= $category['title'] ?></td>
                                 <td><a href="<?= ROOT_URL ?>admin/edit-post.php?id=<?= $post['id'] ?>" class="btn sm">Editar</a></td>
-                                <td><a href="<?= ROOT_URL ?>admin/delete-post.php?id=<?= $post['id'] ?>" class="btn sm danger">Borrar</a></td>
+                                <td><a href="<?= ROOT_URL ?>admin/delete-post.php?id=<?= $post['id'] ?>" class="btn sm danger">Eliminar</a></td>
                             </tr>
                         <?php endwhile ?>
                     </tbody>
                 </table>
             <?php else : ?>
-                <div class="alert__message error"><?= "No posts found" ?></div>
+                <div class="alert__message error"><?= "No se encontraron posts" ?></div>
             <?php endif ?>
         </main>
     </div>

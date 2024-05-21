@@ -60,7 +60,7 @@ unset($_SESSION['signin-data']);
                             <a href="signup.php" class="">Registrarse</a>
                         </li>
                         <li class="">
-                            <a href="services.php" class="">Contacto</a>
+                            <a href="contact.php" class="">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -103,7 +103,7 @@ unset($_SESSION['signin-data']);
                 <div class="links">
                     <ul class="links-unordered-list">
                         <li class="">
-                            <a href="about.php" class="">Conócenos</a>
+                            <a href="blog.php" class="">Invitado</a>
                         </li>
                         <li class="">
                             <a href="terminos.html" class="">Derechos y privacidad</a>

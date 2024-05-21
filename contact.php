@@ -14,8 +14,8 @@
         <h1 class="section__title">Contáctanos</h1>
         <div class="contact__container">
             <div class="contact__info">
-                <h2 class="contact__subtitle">Estamos aquí para ayudarte</h2>
-                <p class="contact__text">Puedes ponerte en contacto con nosotros a través de los siguientes medios:</p>
+                <h2 class="contact__subtitle">Solicitudes o sugerencias</h2>
+                <p class="contact__text">Si deseas consultar mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en solicitar una consultoría gratuita y unos de nuestros asesores te contactará a la brevedad.</p>
                 <ul class="contact__list">
                     <li>
                         <a href="https://www.instagram.com/weblife.0/" target="_blank" class="contact__link">
@@ -40,7 +40,7 @@
         <h1 class="section__title">¿Necesitas ayuda con tu perfil?</h1>
         <div class="contact__container">
             <div class="contact__info">
-                <h2 class="contact__subtitle">Contáctanos por correo y especifícanos tu consulta.</h2>
+                <h2 class="contact__subtitle">Contáctanos y especifícanos tu consulta.</h2>
                 <p class="contact__text">Puedes ponerte en contacto con nosotros a través del siguiente correo:</p>
                 <ul class="contact__list">
                     <li>

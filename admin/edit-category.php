@@ -28,10 +28,10 @@ if (isset($_GET['id'])) {
         <h2 class="h2-dsh">Edit Category</h2>
         <form action="<?= ROOT_URL ?>admin/edit-category-logic.php" method="POST">
             <input type="hidden" name="id" value="<?= $category['id'] ?>">
-            <input type="text" name="title" value="<?= $category['title'] ?>" placeholder="Title">
-            <textarea rows="4" name="description" placeholder="Description"><?= $category['description'] ?></textarea>
-            <button type="submit" name="submit" class="btn">Update Category</button>
-        </form>
+            <input type="text" name="title" value="<?= $category['title'] ?>" placeholder="Titulo">
+            <textarea rows="4" name="description" placeholder="Descripcion"><?= $category['description'] ?></textarea>
+            <button type="submit" name="submit" class="btn">Actualizar categoría</button>
+        </form> 
     </div>
 </section>
 

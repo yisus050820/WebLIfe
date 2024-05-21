@@ -70,7 +70,7 @@ $categories = mysqli_query($connection, $query);
                 </li>
                 <li>
                     <a href="index.php"  class="a-dsh"><i class="uil uil-postcard"></i>
-                        <h5 class="h5-dsh">Administrar Post</h5>
+                        <h5 class="h5-dsh">Administrar post</h5>
                     </a>
                 </li>
                 <?php if (isset($_SESSION['user_is_admin'])) : ?>

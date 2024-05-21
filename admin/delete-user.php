@@ -42,7 +42,7 @@ if (isset($_GET['id'])) {
     if (mysqli_errno($connection)) {
         $_SESSION['delete-user'] = "Couldn't delete '{$user['firstname']} '{$user['lastname']}'";
     } else {
-        $_SESSION['delete-user-success'] = "{$user['firstname']} {$user['lastname']} eliminado correctamente";
+        $_SESSION['delete-user-success'] = "El usuario {$user['firstname']} {$user['lastname']} se a eliminado correctamente";
     }
 }
 

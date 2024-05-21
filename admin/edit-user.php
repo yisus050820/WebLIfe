@@ -19,20 +19,20 @@ if (isset($_GET['id'])) {
                 <i class="fas fa-arrow-left" aria-hidden="true" title="Volver"></i>
             </a>
         </div>
-        <h2 class="h2-dsh">Edit User</h2>
+        <h2 class="h2-dsh">Editar Usuario</h2>
         <form action="<?= ROOT_URL ?>admin/edit-user-logic.php" method="POST" enctype="multipart/form-data">
             <input type="hidden" value="<?= $user['id'] ?>" name="id">
-            <input type="text" value="<?= $user['firstname'] ?>" name="firstname" placeholder="First Name">
-            <input type="text" value="<?= $user['lastname'] ?>" name="lastname" placeholder="Last Name">
-            <input type="text" value="<?= $user['username'] ?>" name="username" placeholder="Username">
-            <input type="email" value="<?= $user['email'] ?>" name="email" placeholder="Email">
-            <input type="password" name="password" placeholder="New Password">
+            <input type="text" value="<?= $user['firstname'] ?>" name="firstname" placeholder="Nombre">
+            <input type="text" value="<?= $user['lastname'] ?>" name="lastname" placeholder="Apellido">
+            <input type="text" value="<?= $user['username'] ?>" name="username" placeholder="Usuario">
+            <input type="email" value="<?= $user['email'] ?>" name="email" placeholder="Correo electronico">
+            <input type="password" name="password" placeholder="Nueva contraseña">
             <input type="file" name="avatar" placeholder="Avatar">
             <select name="userrole">
                 <option value="0" <?= $user['is_admin'] == 0 ? 'selected' : '' ?>>Usuario</option>
                 <option value="1" <?= $user['is_admin'] == 1 ? 'selected' : '' ?>>Admin</option>
             </select>
-            <button type="submit" name="submit" class="btn submit-btn">Update User</button>
+            <button type="submit" name="submit" class="btn submit-btn">Actualizar usuario</button>
         </form>
     </div>
 </section>

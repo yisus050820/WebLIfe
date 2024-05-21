@@ -27,26 +27,26 @@ if (isset($_GET['id'])) {
                     <i class="fas fa-arrow-left" aria-hidden="true" title="Volver"></i>
                 </a>
         </div>
-        <h2 class="h2-dsh">Edit Post</h2>
+        <h2 class="h2-dsh">Editar Post</h2>
         <form action="<?= ROOT_URL ?>admin/edit-post-logic.php" enctype="multipart/form-data" method="POST">
             <input type="hidden" name="id" value="<?= $post['id'] ?>">
             <input type="hidden" name="previous_thumbnail_name" value="<?= $post['thumbnail'] ?>">
-            <input type="text" name="title" value="<?= $post['title'] ?>" placeholder="Title">
+            <input type="text" name="title" value="<?= $post['title'] ?>" placeholder="Titulo">
             <select name="category">
                 <?php while ($category = mysqli_fetch_assoc($categories)) : ?>
                     <option value="<?= $category['id'] ?>"><?= $category['title'] ?></option>
                 <?php endwhile ?>
             </select>
-            <textarea rows="10" name="body" placeholder="Body"><?= $post['body'] ?></textarea>
-            <div class="form__control inline">
+            <textarea rows="10" name="body" placeholder="Texto"><?= $post['body'] ?></textarea>
+            <!--<div class="form__control inline">
                 <input type="checkbox" name="is_featured" id="is_featured" value="1" checked>
-                <label for="is_featured">Featured</label>
-            </div>
+                <label for="is_featured">Destacar</label>
+            </div> -->
             <div class="form__control">
-                <label for="thumbnail">Change Thumbnail</label>
+                <label for="thumbnail">Cambiar imagen</label>
                 <input type="file" name="thumbnail" id="thumbnail">
             </div>
-            <button type="submit" name="submit" class="btn">Agregar Post</button>
+            <button type="submit" name="submit" class="btn">Actualizar post</button>
         </form>
     </div>
 </section>

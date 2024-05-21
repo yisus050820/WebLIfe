@@ -10,7 +10,7 @@
     <?php include 'partials/header.php'; ?>
 
     <section class="team__section">
-        <h1 class="section__title">Sobre nosotros</h1>
+        <h1 class="section__title">Conócenos</h1>
         <div class="team__cards">
             <div class="team__card">
                 <img src="img/jesus.jpg" alt="Miembro del equipo 1" class="team__photo">

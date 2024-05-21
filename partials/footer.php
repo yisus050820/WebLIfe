@@ -101,7 +101,7 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="/project3/img/logowl.png" alt="Logo">
+                        <img src="/project333/img/logowl.png" alt="Logo">
                     </a>
                 </figure>
             </div>

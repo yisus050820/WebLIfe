@@ -58,16 +58,16 @@ unset($_SESSION['signup-data']);
             <div class="links">
                 <ul class="links-unordered-list">
                     <li>
-                        <a href="signin.php" class="">Inicio Sesión</a>
+                        <a href="signin.php" class="">Iniciar Sesión</a>
                     </li>
                     <li>
-                        <a href="#" class="">Conócenos</a>
+                        <a href="about.php" class="">Conócenos</a>
                     </li>
                     <li class="active">
                         <a href="#" class="">Registrarse</a>
                     </li>
                     <li>
-                        <a href="#" class="">Contacto</a>
+                        <a href="contact.php" class="">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -87,37 +87,37 @@ unset($_SESSION['signup-data']);
                     <div class="field-group">
                         <span class="fa fa-user" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="firstname" type="text" value="<?php echo htmlspecialchars($firstname); ?>" placeholder="First Name" required>
+                            <input name="firstname" type="text" value="<?php echo htmlspecialchars($firstname); ?>" placeholder="Nombres" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <span class="fa fa-user" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="lastname" type="text" value="<?php echo htmlspecialchars($lastname); ?>" placeholder="Last Name" required>
+                            <input name="lastname" type="text" value="<?php echo htmlspecialchars($lastname); ?>" placeholder="Apellidos" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <span class="fa fa-envelope" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="email" type="email" value="<?php echo htmlspecialchars($email); ?>" placeholder="Email" required>
+                            <input name="email" type="email" value="<?php echo htmlspecialchars($email); ?>" placeholder="Correo electrónico" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <span class="fa fa-user" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="username" type="text" value="<?php echo htmlspecialchars($username); ?>" placeholder="Username" required>
+                            <input name="username" type="text" value="<?php echo htmlspecialchars($username); ?>" placeholder="Nombre de usuario" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <span class="fa fa-lock" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="createpassword" type="password" placeholder="Create Password" required>
+                            <input name="createpassword" type="password" placeholder="Crear contraseña" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <span class="fa fa-lock" aria-hidden="true"></span>
                         <div class="wthree-field">
-                            <input name="confirmpassword" type="password" placeholder="Confirm Password" required>
+                            <input name="confirmpassword" type="password" placeholder="Confirmar contraseña" required>
                         </div>
                     </div>
                     <div class="field-group">

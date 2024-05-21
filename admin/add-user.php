@@ -50,7 +50,7 @@ unset($_SESSION['add-user-data']);
                 <label for="avatar">Avatar</label>
                 <input type="file" name="avatar" id="avatar">
             </div>
-            <button type="submit" name="submit" class="btn">Añadir</button>
+            <button type="submit" name="submit" class="btn">Añadir usuario</button>
         </form>
     </div>
 </section>

@@ -119,7 +119,7 @@ $categories = mysqli_query($connection, $query);
                     </tbody>
                 </table>
             <?php else : ?>
-                <div class="alert__message error"><?= "No categories found" ?></div>
+                <div class="alert__message error"><?= "No se encontraron categorías" ?></div>
             <?php endif ?>
         </main>
     </div>

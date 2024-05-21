@@ -46,7 +46,7 @@ if (isset($_GET['id'])) {
                 <label for="thumbnail">Change Thumbnail</label>
                 <input type="file" name="thumbnail" id="thumbnail">
             </div>
-            <button type="submit" name="submit" class="btn">Update Post</button>
+            <button type="submit" name="submit" class="btn">Agregar Post</button>
         </form>
     </div>
 </section>

@@ -51,7 +51,7 @@ unset($_SESSION['signin-data']);
                 <div class="links">
                     <ul class="links-unordered-list">
                         <li class="active">
-                            <a href="#" class="">Inicio Sesión</a>
+                            <a href="#" class="">Iniciar Sesion</a>
                         </li>
                         <li class="">
                             <a href="about.php" class="">Conócenos</a>
@@ -65,7 +65,7 @@ unset($_SESSION['signin-data']);
                     </ul>
                 </div>
             </div>
-            <div class="content-w3ls">
+             <div class="content-w3ls">
                 <div class="text-center icon">
                     <span class="fa fa-user"></span>
                 </div>
@@ -79,18 +79,24 @@ unset($_SESSION['signin-data']);
                         <div class="field-group">
                             <span class="fa fa-user" aria-hidden="true"></span>
                             <div class="wthree-field">
-                                <input name="username_email" id="text1" type="text" value="<?php echo htmlspecialchars($username_email); ?>" placeholder="Username or Email" required>
+                                <input name="username_email" id="text1" type="text" value="<?php echo htmlspecialchars($username_email); ?>" placeholder="Usuario o Correo" required>
                             </div>
                         </div>
                         <div class="field-group">
                             <span class="fa fa-lock" aria-hidden="true"></span>
                             <div class="wthree-field">
-                                <input name="password" id="myInput" type="Password" placeholder="Password" required>
+                                <input name="password" id="myInput" type="Password" placeholder="Contraseña" required>
                             </div>
                         </div>
-                        <div class="wthree-field">
-                            <button type="submit" class="btn" name="submit">Iniciar</button>
+                        <div>
+                            <li class="olvide">
+                                <a href="contact.php" class="">¿Olvidaste tu contraseña?</a>
+                            </li>
                         </div>
+                        <div class="wthree-field">
+                            <button type="submit" class="btn" name="submit">Entrar</button>
+                        </div>
+
                     </form>
                 </div>
             </div>
@@ -109,6 +115,76 @@ unset($_SESSION['signin-data']);
                     <p>© 2024 WebLife. Todos los derechos reservados | Hecho por JARDA</p>
                 </div>
             </div>
+            <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html, body {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            body {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            .container {
+                flex: 1;
+            }
+
+            .footer {
+                background-color: #333;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+                width: 100%;
+                margin-top: auto; /* Pushes footer to the bottom */
+            }
+
+            .bottom-grid1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .links-unordered-list {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .links-unordered-list li {
+                margin: 0 15px;
+            }
+
+            .links-unordered-list li a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+
+            .links-unordered-list li a:hover {
+                color: #ddd;
+            }
+
+            .copyright {
+                margin-top: 15px;
+            }
+
+            body > .container {
+                flex-grow: 1;
+            }
+        </style>
         </div>
     </section>
 </body>

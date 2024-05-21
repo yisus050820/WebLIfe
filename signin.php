@@ -65,7 +65,7 @@ unset($_SESSION['signin-data']);
                     </ul>
                 </div>
             </div>
-             <div class="content-w3ls">
+            <div class="content-w3ls">
                 <div class="text-center icon">
                     <span class="fa fa-user"></span>
                 </div>
@@ -96,7 +96,6 @@ unset($_SESSION['signin-data']);
                         <div class="wthree-field">
                             <button type="submit" class="btn" name="submit">Entrar</button>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -116,74 +115,21 @@ unset($_SESSION['signin-data']);
                 </div>
             </div>
             <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
+/* Agregar fondo y bordes a la clase content-w3ls */
+.content-w3ls {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    border: 1px solid rgba(0, 0, 0, 0.8); /* Borde negro semitransparente */
+    padding: 20px;             /* Espaciado interno */
+    border-radius: 10px;       /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
 
-            html, body {
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-            }
 
-            body {
-                margin: 0;
-                display: flex;
-                flex-direction: column;
-                min-height: 100vh;
-            }
+.olvide a:hover, .links-unordered-list a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
 
-            .container {
-                flex: 1;
-            }
 
-            .footer {
-                background-color: #333;
-                color: white;
-                padding: 20px 0;
-                text-align: center;
-                width: 100%;
-                margin-top: auto; /* Pushes footer to the bottom */
-            }
-
-            .bottom-grid1 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .links-unordered-list {
-                list-style-type: none;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                margin-bottom: 10px;
-            }
-
-            .links-unordered-list li {
-                margin: 0 15px;
-            }
-
-            .links-unordered-list li a {
-                color: white;
-                text-decoration: none;
-                transition: color 0.3s;
-            }
-
-            .links-unordered-list li a:hover {
-                color: #ddd;
-            }
-
-            .copyright {
-                margin-top: 15px;
-            }
-
-            body > .container {
-                flex-grow: 1;
-            }
         </style>
         </div>
     </section>

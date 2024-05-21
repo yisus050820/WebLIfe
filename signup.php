@@ -130,8 +130,6 @@ unset($_SESSION['signup-data']);
                         <input type="checkbox" name="terms" id="terms" required>
                         <label for="terms" style="color: white;">Aceptar términos y condiciones</label>
                     </div>
-
-
                     <div class="wthree-field">
                         <button type="submit" name="submit" class="btn">Registrarse</button>
                     </div>
@@ -152,11 +150,20 @@ unset($_SESSION['signup-data']);
             </div>
             <div class="copyright">
                 <p>© 2024 WebLife. Todos los derechos reservados | Hecho por JARDA
-                  
                 </p>
             </div>
         </div>
     </div>
+    <style>
+        .content-w3ls {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    border: 1px solid rgba(0, 0, 0, 0.8); /* Borde negro semitransparente */
+    padding: 20px;             /* Espaciado interno */
+    border-radius: 10px;       /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+    </style>
 </section>
 
 </body>

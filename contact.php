@@ -36,6 +36,22 @@
             </div>
            
         </div>
+   
+        <h1 class="section__title">¿Necesitas ayuda con tu perfil?</h1>
+        <div class="contact__container">
+            <div class="contact__info">
+                <h2 class="contact__subtitle">Contáctanos por correo y especifícanos tu consulta.</h2>
+                <p class="contact__text">Puedes ponerte en contacto con nosotros a través del siguiente correo:</p>
+                <ul class="contact__list">
+                    <li>
+                        <a href="mailto:weblifejarda@gmail.com" class="contact__link">
+                            <i class="fas fa-envelope contact__icon"></i> weblifejarda_hlp@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
     </section>
 
     <?php include 'partials/footer.php'; ?>
